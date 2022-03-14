@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Supermercado One', sans-serif;
+    color: #333;
+}
+header{
+    height: 70px;
+}
+header img{
+     width: 70px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+header h1 {
+    display: inline-block;
+    float: left;
+    padding: 10px 30px;
+}
+header h1 a{
+    transition: .5s;
+}
+header h1 a:hover {
+    color: #1d8348   ;
+}
+header ul { 
+    float: right;
+}
+header ul li {
+    padding: 24px;
+    display: inline-block;
+}
+header ul li a {
+    transition: .5s;
+}
+header ul li a:hover {
+    color: #1d8348  ;
+}
+a {
+    text-decoration: none;
+}
+ .container {
+    width:90%;
+    margin:0 auto;
+}
+.mobile-menu {
+    float: right;
+    display: none;
+    padding: 24px;
+}
+.mobile-menu:hover{
+    cursor: pointer;
+}
+#check {
+    display: none;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    background-color: rgb();
+}
+.sidebar ul li a{
+    color: mediumturquoise;
+}
+.sidebar ul li {
+    padding: 24px;
+    transition: .3s;
+    transition-property: background-color;
+}
+.banner {
+    background-color: midnightblue;
+    padding: 100px 0;
+}
+section {
+    padding: 50px 0px;
+}
+.banner img {
+    width: 200px;
+    border-radius: 20px;
+    object-position: center;
+}
+.banner h2,
+.banner p,
+.banner span {
+     color: #fff;
+}
+.banner h2 {
+    margin-bottom: 20px;
+}
+.banner p {
+    font-size: 18px;
+}
+.banner-left {
+    padding-left: 24px;
+}
+section h5 {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    margin: 15px;
+    position: relative;
+}
+section h5::before{
+    content:'';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 120px;
+    height: 1px;
+    background-color: #fff;
+    left: calc(50% - 60px);
+}
+section h5::after{
+    content:'';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 5px;
+    background-color: #00FFFF;
+    left: calc(50% - 20px);
+}
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px;
+}
+#contact .bar {
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 5px 0 20px 0;
+}
+.col-3 {
+    width: 33.33%;
+    box-sizing: border-box;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    position: 50px 10px;
+}
+@media (max-width: 768px){
+    .mobile-menu {
+        display: none;
+    }
+}
